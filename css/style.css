@@ -46,6 +46,7 @@ a,
 .banner {
     display: flex;
     justify-content: center;
+    margin: 150px;
 }
 
 .banner-text {
@@ -53,12 +54,19 @@ a,
     flex-direction: column;
     flex-shrink: 1;
     width: 550px;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .banner-text h1 {
     color: #F9FAF8;
     font-weight: 1000;
     font-size: 48px;
+    margin: 0;
+}
+
+.banner-text p {
+    margin: 0;
 }
 
 .banner-img {
@@ -69,4 +77,80 @@ a,
     color: white;
     width: 550px;
     flex-shrink: 1;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding: 8px 32px;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 40px 0 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.tile-holder {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    gap: 60px;
+}
+
+.tile-slot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.tile-img {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    flex-shrink: 1;
+}
+
+.tile-caption {
+    text-align: center;
+    width: 150px;
+    flex-shrink: 1;
+    font-weight: lighter;
+}
+
+.quote-sec {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 300px 110px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote-source {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
 }
